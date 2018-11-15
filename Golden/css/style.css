@@ -1,0 +1,624 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #222222;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../img/bg_logo.png) no-repeat top center / cover;
+    height: 700px;
+}
+.navbar-toggler {
+        position: static;
+        margin-left: 900px;
+        margin-top: 20px;
+        visibility: visible;
+    }
+    .navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+.container {
+    margin: 0 auto;
+}
+
+.gold_logo {
+    margin-top: 40px;
+}
+
+nav {
+    justify-content: flex-end;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    display: inline-flex;
+    margin-right: 38px;
+    margin-top: 40px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.top_mnu {
+    text-align: right;
+}
+
+.titles {
+    margin-top: 160px;
+}
+
+.titles p {
+    font-size: 40px;
+}
+
+.titles h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.titles p,
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.head_butt {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.yellow_but {
+    width: 238px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: #fed136;
+    border-radius: 5px;
+}
+
+.yellow_but a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title_text {
+    padding-top: 115px;
+}
+
+.title_text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.title_text p {
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.serv_items {
+    margin-top: 120px;
+    height: 300px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #777777;
+    font-size: 14px;
+}
+
+.our_port {
+    background-color: #f7f7f7;
+    height: 1200px;
+}
+
+.pic_items {
+    text-align: center;
+}
+
+.pic_items img {
+    margin-top: 40px;
+    width: 350px;
+    height: 300px;
+}
+
+.pic_items h4 {
+    font-size: 18px;
+}
+
+.pic_items p {
+    color: #777777;
+    font-size: 14px;
+}
+
+.bg_items {
+    padding-top: 24px;
+    background-color: #fff;
+    height: 92px;
+}
+
+.about {
+    height: 1670px;
+}
+
+.about_titles {
+    text-align: center;
+    margin-top: 78px;
+}
+
+.about_items_left {
+    margin-bottom: 92px;
+}
+
+.about_items_right {
+    margin-bottom: 92px;
+}
+
+.about_items_left h4 {
+    text-align: right;
+    font-size: 18px;
+}
+
+.about_items_left p {
+    text-align: right;
+    font-size: 14px;
+    color: #777777;
+}
+
+.about_items_right h4 {
+    text-align: left;
+    font-size: 18px;
+}
+
+.about_items_right p {
+    text-align: left;
+    font-size: 14px;
+    color: #777777;
+}
+
+.about_titles img {
+    width: 166px;
+    height: 165px;
+    border-radius: 100px;
+    border: 6px solid #f1f1f1;
+}
+
+.story {
+    width: 166px;
+    height: 165px;
+    border-radius: 100px;
+    border: 6px solid #f1f1f1;
+    background-color: #fed136;
+    color: #fff;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.story h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.team {
+    height: 820px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.team_items {
+    margin-top: 88px;
+}
+
+.team_items p {
+    color: #9a9a9a;
+}
+
+.team_items img {
+    margin-bottom: 30px;
+}
+
+.under_team {
+    margin-top: 50px;
+    color: #9a9a9a;
+}
+
+.cms_systems {
+    display: flex;
+    align-items: center;
+    height: 162px;
+}
+
+.cms_position {
+    text-align: center;
+}
+
+.cms_position img {
+    margin-left: 44px;
+}
+
+.contact {
+    background: url(../img/map.png) no-repeat top right;
+    height: 674px;
+    background-color: #222222;
+    color: #fff;
+}
+
+.form {
+    margin-top: 76px;
+}
+
+#cell {
+    text-align: right;
+}
+
+.form input {
+    margin-top: 20px;
+    height: 54px;
+    width: 430px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+div .message {
+    height: 202px;
+    padding-bottom: 150px;
+}
+
+.copyright {
+    display: flex;
+    height: 86px;
+    font-size: 14px;
+}
+
+.copyright p {
+    padding-top: 35px;
+}
+
+.footer_links {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer_links a+a {
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .titles {
+        margin-top: 150px;
+    }
+
+    .titles p {
+        font-size: 20px;
+    }
+    div {
+        box-sizing: border-box;
+    }
+    .titles h1 {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .form input {
+        margin-top: 20px;
+        width: 250px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    .navbar.navbar-1 .navbar-toggler-icon {
+        background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+    }
+    .navbar-toggler {
+        position: static;
+        margin-left: 220px;
+        margin-top: -50px;
+        visibility: visible;
+    }
+
+    .serv_items {
+        margin-top: 20px;
+        height: 300px;
+    }
+    .serv_items:last-child {
+        margin-bottom: 320px;
+    }
+    .title_text {
+        padding-top: 30px;
+    }
+
+    .title_text h2 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+    }
+
+    .title_text p {
+        color: #777777;
+        text-align: center;
+        font-size: 16px;
+        margin: 5px;
+    }
+    .about {
+        margin-top: 1500px;
+    }
+    .about_items_left p {
+        text-align: center;
+    }
+    .about_items_left h4 {
+        text-align: center;
+    }
+    .about_items_right p {
+        text-align: center;
+    }
+    .about_items_right h4 {
+        text-align: center;
+    }
+    .team {
+        margin-top: 380px;
+    }
+    .team_items {
+        margin: 0;
+    }
+    .cms_systems {
+        margin-top: 700px;
+    }
+    .cms_position img {
+        padding-bottom: 20px;
+        padding-left: 5px;
+        margin: 0;
+    }
+    .contact {
+        margin-top: 30px;
+    }
+    form#cell{
+        text-align: center;
+        margin-top: -40px;
+    }
+    form {
+        text-align: center;
+    }
+    input.message {
+        height: 100px;
+        padding-top: 30px;
+    }
+    .copy p {
+        text-align: center;
+    }
+}
+
+/*Media here*/
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+ .titles {
+    margin-top: 150px;
+}
+.titles p {
+    font-size: 30px;
+}
+div {
+    box-sizing: border-box;
+}
+.titles h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.top_mnu { /*align head menu*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.form input {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+.navbar-toggler {
+    position: static;
+    visibility: visible;
+    margin-left: 440px;
+    margin-top: -50px;
+}
+.serv_items {
+    margin-top: 20px;
+    height: 300px;
+}
+.serv_items:last-child {
+    margin-bottom: 320px;
+}
+.title_text {
+    padding-top: 50px;
+}
+
+.title_text h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.title_text p {
+    color: #777777;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+}
+.about {
+    margin-top: 1500px;
+}
+.about_items_left p {
+    text-align: center;
+}
+.about_items_left h4 {
+    text-align: center;
+}
+.about_items_right p {
+    text-align: center;
+}
+.about_items_right h4 {
+    text-align: center;
+}
+.team {
+    margin-top: 380px;
+}
+.team_items {
+    margin: 0;
+}
+.cms_systems {
+    margin-top: 700px;
+}
+.cms_position img {
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin: 0;
+}
+.contact {
+    margin-top: 30px;
+}
+form#cell{
+    text-align: center;
+    margin-top: -40px;
+
+}
+form {
+    text-align: center;
+}
+
+input.message {
+    height: 100px;
+    padding-top: 30px;
+}
+.copy p {
+    text-align: center;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .titles {
+    margin-top: 150px;
+}
+.titles p {
+    font-size: 30px;
+}
+div {
+    box-sizing: border-box;
+}
+.titles h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.top_mnu { /*align head menu*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.form input {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+.navbar-toggler {
+    position: static;
+    visibility: visible;
+    margin-left: 500px;
+}
+.serv_items {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.title_text {
+    padding-top: 50px;
+}
+
+.title_text h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.title_text p {
+    color: #777777;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+}
+.about {
+    margin-top: 250px;
+}
+.about_items_left p {
+    text-align: center;
+}
+.about_items_left h4 {
+    text-align: center;
+}
+.about_items_right p {
+    text-align: center;
+}
+.about_items_right h4 {
+    text-align: center;
+}
+.team_items {
+    margin: 0;
+}
+.team {
+    height: 720px;
+}
+.cms_position img {
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin: 0;
+}
+.contact {
+    margin-top: 30px;
+}
+.copy p {
+    text-align: center;
+}
+
+}
